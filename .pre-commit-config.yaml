@@ -51,7 +51,7 @@ repos:
         additional_dependencies:
           ["prettier@2.3.1", "prettier-plugin-solidity@1.0.0-beta.13"]
         args: ["--plugin=prettier-plugin-solidity"]
-        exclude: "^contracts/openzeppelin/.*"
+        exclude: "^contracts/openzeppelin/.*|wasm_exec.js$"
 
   - repo: https://github.com/psf/black
     rev: 20.8b1
