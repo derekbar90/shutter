@@ -1,0 +1,15 @@
+{
+  "name": "shutter-client",
+  "version": "0.1.0",
+  "description": "shutter client library",
+  "main": "dist/shcrypto.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wasm": "make -C ../shuttermint GOFLAGS= BINDIR=$(pwd)/dist wasm"
+  },
+  "author": "",
+  "license": "ISC"
+}
